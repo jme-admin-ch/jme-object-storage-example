@@ -1,0 +1,36 @@
+publiccodeYmlVersion: 0.4.0
+name: jme-object-storage-example
+applicationSuite: JME
+softwareVersion: 1.1.0
+releaseDate: 2026-07-22
+url: "https://github.com/jme-admin-ch/jme-object-storage-example.git"
+landingURL: "https://github.com/jme-admin-ch/jme"
+platforms:
+  - web
+categories:
+  - application-development
+developmentStatus: stable
+softwareType: standalone/backend
+organisation:
+  uri: https://ld.admin.ch/office/V.1.7
+  name: Federal Office of Information Technology, Systems and Telecommunication
+description:
+  en:
+    localisedName: jme-object-storage-example
+    shortDescription: Example project demonstrating the usage of the jEAP Object Storage Starter.
+    longDescription: >
+      This example project demonstrates how to use the jEAP Object Storage Starter, including setup, 
+      configuration and integration.
+    features:
+      - Demonstrates usage of the jEAP Object Storage Starter
+legal:
+  license: Apache-2.0
+maintenance:
+  type: internal
+  contacts:
+    - name: Federal Office of Information Technology, Systems and Telecommunication FOITT
+      email: jeap-community@bit.admin.ch
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - en

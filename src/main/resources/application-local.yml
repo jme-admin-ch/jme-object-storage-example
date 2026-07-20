@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+jeap:
+  s3:
+    client:
+      endpoint-url: http://localhost:9000
+      access-key: rustfsadmin
+      secret-key: rustfsadmin
+    bucket-management:
+      enabled: true
+    bucket-names:
+      example-bucket-1: 'jme-object-storage-example'

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: jme-object-storage-example
+
+server:
+  servlet:
+    context-path: "/jme-object-storage-example"
+
+jeap:
+  monitor:
+    prometheus:
+      secure: false
+  swagger:
+    status: OPEN
