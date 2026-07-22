@@ -1,4 +1,4 @@
-publiccodeYmlVersion: 0.4.0
+publiccodeYmlVersion: 0.5.0
 name: jme-object-storage-example
 applicationSuite: JME
 softwareVersion: 1.1.0
@@ -20,7 +20,9 @@ description:
     shortDescription: Example project demonstrating the usage of the jEAP Object Storage Starter.
     longDescription: >
       This example project demonstrates how to use the jEAP Object Storage Starter, including setup, 
-      configuration and integration.
+      configuration and integration. This example can create or delete buckets, upload and download files, 
+      and list the contents of a bucket. It is intended to serve as a reference for developers looking 
+      to integrate object storage capabilities into their own applications.
     features:
       - Demonstrates usage of the jEAP Object Storage Starter
 legal:
