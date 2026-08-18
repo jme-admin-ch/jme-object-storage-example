@@ -40,7 +40,7 @@ services:
     command: sh -c "chown -R 10001:10001 /data"
 
   rustfs_init:
-    image: amazon/aws-cli:2.36.24
+    image: amazon/aws-cli:2.36.25
     depends_on:
       rustfs:
         condition: service_healthy
